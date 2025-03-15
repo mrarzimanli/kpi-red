@@ -1,0 +1,208 @@
+{
+  "errors": {
+    "404": {
+      "title": "404",
+      "description": "Təəssüf ki, axtardığınız səhifə tapılmadı!"
+    },
+    "ui": {
+      "title": "Ooops!",
+      "description": "Xəta baş verdi. Zəhmət olmasa, səhifəni yeniləyin."
+    }
+  },
+
+  "buttons": {
+    "login": "Daxil ol",
+    "loginWithSlack": "Slack ilə daxil ol",
+    "signUp": "Qeydiyyatdan keç",
+    "logout": "Çıxış",
+    "clickToLogout": "Çıxış etmət üçün klikləyin",
+    "goBack": "Geri qayıt",
+    "goToDashboard": "Ana səhifəyə qayıt",
+    "okay": "Oldu",
+    "close": "Bağla",
+    "yes": "Bəli",
+    "no": "Xeyr",
+    "upgrade": "Yüksəlt",
+    "send": "Göndər",
+    "connect": "Qoş",
+    "cancel": "Ləğv et",
+    "seeMore": "Daha çox göstər"
+  },
+
+  "menu": {
+    "dashboard": {
+      "title": "Ana səhifə",
+      "desc": "Lorem ipsum"
+    },
+    "taskResults": {
+      "title": "Tapşırıq nəticələri",
+      "desc": ""
+    },
+    "managerAssessment": {
+      "title": "Menecerlərin qiymətləndirməsi",
+      "desc": "Lorem ipsum"
+    },
+    "codeQuality": {
+      "title": "Kodun keyfiyyəti",
+      "desc": "Lorem ipsum"
+    },
+    "selfDevelopment": {
+      "title": "Özünü inkişaf",
+      "desc": "Lorem ipsum"
+    },
+    "team": {
+      "title": "QR Creator",
+      "desc": "Komanda"
+    },
+    "settings": {
+      "title": "Tənzimləmələr",
+      "desc": "Lorem ipsum"
+    }
+  },
+
+  "login": {
+    "form": {
+      "title": "Giriş",
+      "desc": "Daxil olmaq üçün e-poçt ünvanınızı daxil edin."
+    }
+  },
+
+  "signUp": {
+    "form": {
+      "title": "Qeydiyyat",
+      "desc": "Qeydiyyatdan keçmək üçün aşağıdakı xanaları doldurun."
+    }
+  },
+
+  "inputs": {
+    "email": {
+      "label": "E-mail",
+      "placeholder": "example@company.com",
+      "error": "Bu xana boş ola bilməz!"
+    },
+    "username": {
+      "label": "İstifadəçi adı",
+      "placeholder": "İstifadəçi adını daxil edin",
+      "error": "Bu xana boş ola bilməz!"
+    },
+    "password": {
+      "label": "Şifrə",
+      "placeholder": "Şifrəni daxil edin",
+      "error": "Bu xana boş ola bilməz!",
+      "matchError": "Şifrə uyğun deyil!"
+    },
+    "jiraUsername": {
+      "label": "Jira istifadəçi adı",
+      "placeholder": "İstifadəçi adını daxil edin",
+      "error": "Bu xana boş ola bilməz!"
+    },
+    "jiraPassword": {
+      "label": "Jira şifrə",
+      "placeholder": "Şifrəni daxil edin",
+      "error": "Bu xana boş ola bilməz!",
+      "matchError": "Şifrə uyğun deyil!"
+    },
+
+    "passwordConfirm": {
+      "label": "Təkrar şifrə",
+      "placeholder": "Təkrar şifrənizi daxil edin",
+      "error": "Bu xana boş ola bilməz!",
+      "matchError": "Şifrə uyğun deyil!"
+    },
+    "plan": {
+      "label": "Plan",
+      "placeholder": "Planı seçin",
+      "error": "Bu xana boş ola bilməz!"
+    },
+    "timezone": {
+      "label": "Timezone",
+      "placeholder": "Timezone seçin",
+      "error": "Bu xana boş ola bilməz!"
+    },
+    "timeFormat": {
+      "label": "Time Format",
+      "placeholder": "Time format seçin",
+      "error": "Bu xana boş ola bilməz!"
+    },
+    "firstDayOfWeek": {
+      "label": "First day of week",
+      "placeholder": "First day of week seçin",
+      "error": "Bu xana boş ola bilməz!"
+    }
+  },
+
+  "emptyStates": {},
+
+  "modals": {
+    "createUser": {
+      "title": "Yeni istifadəçi yarat.",
+      "description": "Aşağıdakı məlumatları dolduraraq yeni istifadəçi yarada bilərsiniz."
+    },
+    "userNotFound": {
+      "title": "Xəta baş verdi!",
+      "description": "İstifadəçi tapılmadı."
+    },
+    "unexpectedError": {
+      "title": "Xəta baş verdi!",
+      "description": "Zəhmət olmasa, yenidən yoxlayın."
+    },
+    "badRequest": {
+      "title": "Bad Request!",
+      "description": "Missing or invalid inputs. Please check your form."
+    },
+    "unauthorized": {
+      "title": "Unauthorized!",
+      "description": "Invalid inputs. Please try again."
+    },
+    "upgradePlan": {
+      "title": "Diqqət!",
+      "description": "Zəhmət olmasa, planınızı yüksəldin."
+    },
+    "cancelPlan": {
+      "title": "Diqqət!",
+      "description": "Planınızı ləğv etmək istədiyinizdən əminsinizmi?"
+    },
+    "logout": {
+      "title": "Diqqət!",
+      "description": "Çıxmaq istədiyinizdən əminsinizmi?"
+    },
+    "successfulOperation": {
+      "title": "Uğurlu əməliyat!",
+      "description": ""
+    }
+  },
+
+  "dashboard": {
+    "header": {
+      "title": "Xoş gəlmisiniz",
+      "description": "Müvəqqəti narahatçılıqlarınızı unutun və işə başlayın."
+    }
+  },
+
+  "settings": {
+    "userJiraConnection": {
+      "title": "Jira qoşulması",
+      "description": "Jira hesabınızı buradan qoşun."
+    },
+    "billingInfo": {
+      "title": "Faktura təfərrüatları",
+      "description": "Cari planınız, Növbəti faktura məbləği, Növbəti hesablaşma tarixi, Ödəniş metodu"
+    }
+  },
+
+  "routes": {
+    "USER_DASHBOARD": "Ana səhifə",
+    "USER_CODE_QUALITY": "Kodun keyfiyyəti",
+    "USER_MANAGER_ASSESSMENT": "Rəhbərlərin qiymətləndirməsi",
+    "USER_TASK_RESULT": "Tapşırıq nəticələri",
+    "USER_SELF_DEVELOPMENT": "Özünü inkişaf",
+    "USER_SETTINGS": "Tənzimləmələr"
+  },
+
+  "widgets": {
+    "kpi": {
+      "title": "Cari rüb üzrə performans göstəriciləri",
+      "description": "Bu göstəricilər cari rüb ərzindəki fəaliyyətinizin müxtəlif aspektlərdə qiymətləndirilməsini əks etdirir."
+    }
+  }
+}

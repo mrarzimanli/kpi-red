@@ -1,0 +1,65 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: flex-end;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    &__title {
+      font-size: var(--fs-h5);
+      line-height: var(--lh-h5);
+      font-weight: var(--fw-bold);
+      color: var(--base-13);
+    }
+
+    &__desc {
+      font-size: var(--fs-b1);
+      line-height: var(--lh-b1);
+      color: var(--base-8);
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__footer {
+    display: flex;
+    gap: 16px;
+  }
+}
+
+.accountInfo {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  > div {
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: calc(50% - 12px);
+  }
+
+  > button {
+    min-width: 140px;
+  }
+}

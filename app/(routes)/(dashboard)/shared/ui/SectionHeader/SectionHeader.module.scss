@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px 0;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__title {
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-h4);
+  }
+
+  &__desc {
+    color: var(--black-13);
+    font-size: var(--fs-sub-title-1);
+    line-height: var(--lh-sub-title-1);
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    gap: 16px;
+    padding: 8px 0;
+
+    &__title {
+      font-size: var(--fs-h5);
+      // font-weight: var(--fw-extra-bold);
+      line-height: var(--lh-h5);
+    }
+  }
+}
